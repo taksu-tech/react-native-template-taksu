@@ -1,8 +1,8 @@
 {
-  "name": "react-native-new-template",
-  "version": "0.0.5",
-  "description": "React Native Template",
-  "repository": "git@github.com:Esemesek/react-native-new-template.git",
-  "author": "Kacper Wiszczuk <kacperwiszczuk@gmail.com>",
+  "name": "react-native-template-taksu",
+  "version": "1.0",
+  "description": "React Native Template Taksu",
+  "repository": "git@gitlab.com:spinroam/internal/react-native-template-taksu.git",
+  "author": "Reroet <puguh.sudarma@taksuteknologi.com>",
   "license": "MIT"
 }
