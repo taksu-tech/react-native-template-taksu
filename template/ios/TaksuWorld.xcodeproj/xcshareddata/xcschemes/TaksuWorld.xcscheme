@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "taksu-tvOS.app"
-               BlueprintName = "taksu-tvOS"
-               ReferencedContainer = "container:taksu.xcodeproj">
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "TaksuWorld.app"
+               BlueprintName = "TaksuWorld"
+               ReferencedContainer = "container:TaksuWorld.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "taksu-tvOSTests.xctest"
-               BlueprintName = "taksu-tvOSTests"
-               ReferencedContainer = "container:taksu.xcodeproj">
+               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
+               BuildableName = "TaksuWorldTests.xctest"
+               BlueprintName = "TaksuWorldTests"
+               ReferencedContainer = "container:TaksuWorld.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,10 +54,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "taksu-tvOS.app"
-            BlueprintName = "taksu-tvOS"
-            ReferencedContainer = "container:taksu.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "TaksuWorld.app"
+            BlueprintName = "TaksuWorld"
+            ReferencedContainer = "container:TaksuWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "taksu-tvOS.app"
-            BlueprintName = "taksu-tvOS"
-            ReferencedContainer = "container:taksu.xcodeproj">
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "TaksuWorld.app"
+            BlueprintName = "TaksuWorld"
+            ReferencedContainer = "container:TaksuWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

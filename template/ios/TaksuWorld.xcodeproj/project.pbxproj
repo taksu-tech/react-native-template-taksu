@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* taksuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* taksuTests.m */; };
+		00E356F31AD99517003FC87E /* TaksuWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TaksuWorldTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		167984EB6EB80DAD9811A5F9 /* libPods-TaksuWorld-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7384FBF1049ACBA13B69A5 /* libPods-TaksuWorld-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* taksuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* taksuTests.m */; };
-		30E944E2DB5F56873388087D /* libPods-taksu-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4CF5CD9AFCF0A274C028E1 /* libPods-taksu-tvOSTests.a */; };
-		4426DC30495885BB6753A36E /* libPods-taksu-taksuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A80BF822151E22CB26C5A5 /* libPods-taksu-taksuTests.a */; };
-		78B4D68B86FD51BE072E19C9 /* libPods-taksu-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4398FBCDC9C254B52F3FA831 /* libPods-taksu-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* TaksuWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TaksuWorldTests.m */; };
+		2DD5350D653970A40E90C8F0 /* libPods-TaksuWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7AEE57D72C7D72DE9BA276 /* libPods-TaksuWorld.a */; };
+		5791A343883E01D2F0BBF977 /* libPods-TaksuWorld-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71E9C84BFE1AD01D3C4F7311 /* libPods-TaksuWorld-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B84230C55C599765A77C387C /* libPods-taksu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4571E14446D84FF280D77ADA /* libPods-taksu.a */; };
+		A624221CE358D0FAFBBB72F9 /* libPods-TaksuWorld-TaksuWorldTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3876912DE2850121ED58D39 /* libPods-TaksuWorld-TaksuWorldTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = taksu;
+			remoteInfo = TaksuWorld;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "taksu-tvOS";
+			remoteInfo = "TaksuWorld-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* taksuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taksuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* TaksuWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaksuWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* taksuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = taksuTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* taksu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taksu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = taksu/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = taksu/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = taksu/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = taksu/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = taksu/main.m; sourceTree = "<group>"; };
-		16D20060DA5E56AEC7B8DF44 /* Pods-taksu-taksuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-taksuTests.release.xcconfig"; path = "Target Support Files/Pods-taksu-taksuTests/Pods-taksu-taksuTests.release.xcconfig"; sourceTree = "<group>"; };
-		1B4CF5CD9AFCF0A274C028E1 /* libPods-taksu-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taksu-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* taksu-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taksu-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* taksu-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taksu-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4398FBCDC9C254B52F3FA831 /* libPods-taksu-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taksu-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4571E14446D84FF280D77ADA /* libPods-taksu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taksu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59A80BF822151E22CB26C5A5 /* libPods-taksu-taksuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taksu-taksuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75644BD986D8CC1E7EABFEBE /* Pods-taksu-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-tvOS.release.xcconfig"; path = "Target Support Files/Pods-taksu-tvOS/Pods-taksu-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = taksu/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8ADB82F1247C3EB926A1CF09 /* Pods-taksu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu.debug.xcconfig"; path = "Target Support Files/Pods-taksu/Pods-taksu.debug.xcconfig"; sourceTree = "<group>"; };
-		9182D7DB5BAB8AE5213168EE /* Pods-taksu-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-taksu-tvOS/Pods-taksu-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B441CA5A39296E7C9C24A4F1 /* Pods-taksu-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-taksu-tvOSTests/Pods-taksu-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		DF12852D6841D0A6AE6BD119 /* Pods-taksu-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-taksu-tvOSTests/Pods-taksu-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TaksuWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaksuWorldTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TaksuWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaksuWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TaksuWorld/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TaksuWorld/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TaksuWorld/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TaksuWorld/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TaksuWorld/main.m; sourceTree = "<group>"; };
+		19D7974B8CB3CAFA79206A89 /* Pods-TaksuWorld-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-tvOS/Pods-TaksuWorld-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		23FB239A63BA9D8290BF0B35 /* Pods-TaksuWorld-TaksuWorldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-TaksuWorldTests.release.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-TaksuWorldTests/Pods-TaksuWorld-TaksuWorldTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* TaksuWorld-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaksuWorld-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* TaksuWorld-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TaksuWorld-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F7C3533D43AB5AA9982CAE1 /* Pods-TaksuWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld.release.xcconfig"; path = "Target Support Files/Pods-TaksuWorld/Pods-TaksuWorld.release.xcconfig"; sourceTree = "<group>"; };
+		4FD12544CEEB664F6D586DB9 /* Pods-TaksuWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld.debug.xcconfig"; path = "Target Support Files/Pods-TaksuWorld/Pods-TaksuWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		71E9C84BFE1AD01D3C4F7311 /* libPods-TaksuWorld-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaksuWorld-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TaksuWorld/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3876912DE2850121ED58D39 /* libPods-TaksuWorld-TaksuWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaksuWorld-TaksuWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7AEE57D72C7D72DE9BA276 /* libPods-TaksuWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaksuWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C69562D550977FE9B76AB2FF /* Pods-TaksuWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-tvOS/Pods-TaksuWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C87AAF5C65A1B15EC65C934C /* Pods-TaksuWorld-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-tvOSTests/Pods-TaksuWorld-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D57096E90BB81B261637BB63 /* Pods-TaksuWorld-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-tvOSTests/Pods-TaksuWorld-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4EA86E466BBBD688389F8AF /* Pods-TaksuWorld-TaksuWorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaksuWorld-TaksuWorldTests.debug.xcconfig"; path = "Target Support Files/Pods-TaksuWorld-TaksuWorldTests/Pods-TaksuWorld-TaksuWorldTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDC80805F3C772E6D9AD95D0 /* Pods-taksu-taksuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu-taksuTests.debug.xcconfig"; path = "Target Support Files/Pods-taksu-taksuTests/Pods-taksu-taksuTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FB063988BF8D5C0E9709D991 /* Pods-taksu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taksu.release.xcconfig"; path = "Target Support Files/Pods-taksu/Pods-taksu.release.xcconfig"; sourceTree = "<group>"; };
+		FA7384FBF1049ACBA13B69A5 /* libPods-TaksuWorld-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaksuWorld-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4426DC30495885BB6753A36E /* libPods-taksu-taksuTests.a in Frameworks */,
+				A624221CE358D0FAFBBB72F9 /* libPods-TaksuWorld-TaksuWorldTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84230C55C599765A77C387C /* libPods-taksu.a in Frameworks */,
+				2DD5350D653970A40E90C8F0 /* libPods-TaksuWorld.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B4D68B86FD51BE072E19C9 /* libPods-taksu-tvOS.a in Frameworks */,
+				5791A343883E01D2F0BBF977 /* libPods-TaksuWorld-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E944E2DB5F56873388087D /* libPods-taksu-tvOSTests.a in Frameworks */,
+				167984EB6EB80DAD9811A5F9 /* libPods-TaksuWorld-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* taksuTests */ = {
+		00E356EF1AD99517003FC87E /* TaksuWorldTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* taksuTests.m */,
+				00E356F21AD99517003FC87E /* TaksuWorldTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = taksuTests;
+			path = TaksuWorldTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* taksu */ = {
+		13B07FAE1A68108700A75B9A /* TaksuWorld */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,23 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = taksu;
-			sourceTree = "<group>";
-		};
-		15CF7886DEAC90246D62F5A2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8ADB82F1247C3EB926A1CF09 /* Pods-taksu.debug.xcconfig */,
-				FB063988BF8D5C0E9709D991 /* Pods-taksu.release.xcconfig */,
-				EDC80805F3C772E6D9AD95D0 /* Pods-taksu-taksuTests.debug.xcconfig */,
-				16D20060DA5E56AEC7B8DF44 /* Pods-taksu-taksuTests.release.xcconfig */,
-				9182D7DB5BAB8AE5213168EE /* Pods-taksu-tvOS.debug.xcconfig */,
-				75644BD986D8CC1E7EABFEBE /* Pods-taksu-tvOS.release.xcconfig */,
-				DF12852D6841D0A6AE6BD119 /* Pods-taksu-tvOSTests.debug.xcconfig */,
-				B441CA5A39296E7C9C24A4F1 /* Pods-taksu-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
+			name = TaksuWorld;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -157,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4571E14446D84FF280D77ADA /* libPods-taksu.a */,
-				59A80BF822151E22CB26C5A5 /* libPods-taksu-taksuTests.a */,
-				4398FBCDC9C254B52F3FA831 /* libPods-taksu-tvOS.a */,
-				1B4CF5CD9AFCF0A274C028E1 /* libPods-taksu-tvOSTests.a */,
+				AF7AEE57D72C7D72DE9BA276 /* libPods-TaksuWorld.a */,
+				A3876912DE2850121ED58D39 /* libPods-TaksuWorld-TaksuWorldTests.a */,
+				71E9C84BFE1AD01D3C4F7311 /* libPods-TaksuWorld-tvOS.a */,
+				FA7384FBF1049ACBA13B69A5 /* libPods-TaksuWorld-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80DE4F6BD089CADF27CF2539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FD12544CEEB664F6D586DB9 /* Pods-TaksuWorld.debug.xcconfig */,
+				2F7C3533D43AB5AA9982CAE1 /* Pods-TaksuWorld.release.xcconfig */,
+				E4EA86E466BBBD688389F8AF /* Pods-TaksuWorld-TaksuWorldTests.debug.xcconfig */,
+				23FB239A63BA9D8290BF0B35 /* Pods-TaksuWorld-TaksuWorldTests.release.xcconfig */,
+				C69562D550977FE9B76AB2FF /* Pods-TaksuWorld-tvOS.debug.xcconfig */,
+				19D7974B8CB3CAFA79206A89 /* Pods-TaksuWorld-tvOS.release.xcconfig */,
+				D57096E90BB81B261637BB63 /* Pods-TaksuWorld-tvOSTests.debug.xcconfig */,
+				C87AAF5C65A1B15EC65C934C /* Pods-TaksuWorld-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -175,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* taksu */,
+				13B07FAE1A68108700A75B9A /* TaksuWorld */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* taksuTests */,
+				00E356EF1AD99517003FC87E /* TaksuWorldTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				15CF7886DEAC90246D62F5A2 /* Pods */,
+				80DE4F6BD089CADF27CF2539 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* taksu.app */,
-				00E356EE1AD99517003FC87E /* taksuTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* taksu-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* taksu-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* TaksuWorld.app */,
+				00E356EE1AD99517003FC87E /* TaksuWorldTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* TaksuWorld-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* TaksuWorld-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,52 +201,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* taksuTests */ = {
+		00E356ED1AD99517003FC87E /* TaksuWorldTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "taksuTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TaksuWorldTests" */;
 			buildPhases = (
-				A483C631ACD6D0E5947D00BB /* [CP] Check Pods Manifest.lock */,
+				27C6002A7148E1E9421A0DCC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BD53B896B5468B7144FC5A3F /* [CP] Copy Pods Resources */,
+				9A98E9AD65F04FBD03F57C8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = taksuTests;
-			productName = taksuTests;
-			productReference = 00E356EE1AD99517003FC87E /* taksuTests.xctest */;
+			name = TaksuWorldTests;
+			productName = TaksuWorldTests;
+			productReference = 00E356EE1AD99517003FC87E /* TaksuWorldTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* taksu */ = {
+		13B07F861A680F5B00A75B9A /* TaksuWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "taksu" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TaksuWorld" */;
 			buildPhases = (
-				617831F6E725388FFC3743CA /* [CP] Check Pods Manifest.lock */,
+				8D9759F101C4C235D6FC0059 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A48534C3604D114DD12A4F18 /* [CP] Copy Pods Resources */,
+				8041EBE8A223F2BC2BCAF9FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = taksu;
-			productName = taksu;
-			productReference = 13B07F961A680F5B00A75B9A /* taksu.app */;
+			name = TaksuWorld;
+			productName = TaksuWorld;
+			productReference = 13B07F961A680F5B00A75B9A /* TaksuWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* taksu-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* TaksuWorld-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taksu-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TaksuWorld-tvOS" */;
 			buildPhases = (
-				0AC744E08B167BD6070D984B /* [CP] Check Pods Manifest.lock */,
+				3DEF6A2A85165FD0F953F88E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -257,16 +257,16 @@
 			);
 			dependencies = (
 			);
-			name = "taksu-tvOS";
-			productName = "taksu-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* taksu-tvOS.app */;
+			name = "TaksuWorld-tvOS";
+			productName = "TaksuWorld-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* TaksuWorld-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* taksu-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* TaksuWorld-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taksu-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TaksuWorld-tvOSTests" */;
 			buildPhases = (
-				40E1E284D014B3E4B5A3603C /* [CP] Check Pods Manifest.lock */,
+				CBECFD962DA61A261CFC8AC0 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "taksu-tvOSTests";
-			productName = "taksu-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* taksu-tvOSTests.xctest */;
+			name = "TaksuWorld-tvOSTests";
+			productName = "TaksuWorld-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* TaksuWorld-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "taksu" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TaksuWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* taksu */,
-				00E356ED1AD99517003FC87E /* taksuTests */,
-				2D02E47A1E0B4A5D006451C7 /* taksu-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* taksu-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* TaksuWorld */,
+				00E356ED1AD99517003FC87E /* TaksuWorldTests */,
+				2D02E47A1E0B4A5D006451C7 /* TaksuWorld-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* TaksuWorld-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0AC744E08B167BD6070D984B /* [CP] Check Pods Manifest.lock */ = {
+		27C6002A7148E1E9421A0DCC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taksu-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TaksuWorld-TaksuWorldTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -413,7 +413,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		40E1E284D014B3E4B5A3603C /* [CP] Check Pods Manifest.lock */ = {
+		3DEF6A2A85165FD0F953F88E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,64 +428,20 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taksu-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TaksuWorld-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		617831F6E725388FFC3743CA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taksu-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A483C631ACD6D0E5947D00BB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-taksu-taksuTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A48534C3604D114DD12A4F18 /* [CP] Copy Pods Resources */ = {
+		8041EBE8A223F2BC2BCAF9FF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taksu/Pods-taksu-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TaksuWorld/Pods-TaksuWorld-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -494,16 +450,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taksu/Pods-taksu-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaksuWorld/Pods-TaksuWorld-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BD53B896B5468B7144FC5A3F /* [CP] Copy Pods Resources */ = {
+		8D9759F101C4C235D6FC0059 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaksuWorld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A98E9AD65F04FBD03F57C8A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-taksu-taksuTests/Pods-taksu-taksuTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TaksuWorld-TaksuWorldTests/Pods-TaksuWorld-TaksuWorldTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -512,7 +490,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-taksu-taksuTests/Pods-taksu-taksuTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaksuWorld-TaksuWorldTests/Pods-TaksuWorld-TaksuWorldTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBECFD962DA61A261CFC8AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaksuWorld-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* taksuTests.m in Sources */,
+				00E356F31AD99517003FC87E /* TaksuWorldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* taksuTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* TaksuWorldTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* taksu */;
+			target = 13B07F861A680F5B00A75B9A /* TaksuWorld */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* taksu-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* TaksuWorld-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDC80805F3C772E6D9AD95D0 /* Pods-taksu-taksuTests.debug.xcconfig */;
+			baseConfigurationReference = E4EA86E466BBBD688389F8AF /* Pods-TaksuWorld-TaksuWorldTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = taksuTests/Info.plist;
+				INFOPLIST_FILE = TaksuWorldTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taksu.app/taksu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaksuWorld.app/TaksuWorld";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D20060DA5E56AEC7B8DF44 /* Pods-taksu-taksuTests.release.xcconfig */;
+			baseConfigurationReference = 23FB239A63BA9D8290BF0B35 /* Pods-TaksuWorld-TaksuWorldTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = taksuTests/Info.plist;
+				INFOPLIST_FILE = TaksuWorldTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taksu.app/taksu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaksuWorld.app/TaksuWorld";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ADB82F1247C3EB926A1CF09 /* Pods-taksu.debug.xcconfig */;
+			baseConfigurationReference = 4FD12544CEEB664F6D586DB9 /* Pods-TaksuWorld.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = taksu/Info.plist;
+				INFOPLIST_FILE = TaksuWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = taksu;
+				PRODUCT_NAME = TaksuWorld;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB063988BF8D5C0E9709D991 /* Pods-taksu.release.xcconfig */;
+			baseConfigurationReference = 2F7C3533D43AB5AA9982CAE1 /* Pods-TaksuWorld.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = taksu/Info.plist;
+				INFOPLIST_FILE = TaksuWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = taksu;
+				PRODUCT_NAME = TaksuWorld;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9182D7DB5BAB8AE5213168EE /* Pods-taksu-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C69562D550977FE9B76AB2FF /* Pods-TaksuWorld-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taksu-tvOS/Info.plist";
+				INFOPLIST_FILE = "TaksuWorld-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taksu-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TaksuWorld-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75644BD986D8CC1E7EABFEBE /* Pods-taksu-tvOS.release.xcconfig */;
+			baseConfigurationReference = 19D7974B8CB3CAFA79206A89 /* Pods-TaksuWorld-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taksu-tvOS/Info.plist";
+				INFOPLIST_FILE = "TaksuWorld-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taksu-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TaksuWorld-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF12852D6841D0A6AE6BD119 /* Pods-taksu-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = D57096E90BB81B261637BB63 /* Pods-TaksuWorld-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taksu-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TaksuWorld-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taksu-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TaksuWorld-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taksu-tvOS.app/taksu-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaksuWorld-tvOS.app/TaksuWorld-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B441CA5A39296E7C9C24A4F1 /* Pods-taksu-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = C87AAF5C65A1B15EC65C934C /* Pods-TaksuWorld-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "taksu-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "TaksuWorld-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.taksu-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TaksuWorld-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taksu-tvOS.app/taksu-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaksuWorld-tvOS.app/TaksuWorld-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "taksuTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TaksuWorldTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "taksu" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TaksuWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taksu-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TaksuWorld-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "taksu-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TaksuWorld-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "taksu" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TaksuWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

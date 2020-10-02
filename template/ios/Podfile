@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'taksu' do
+target 'TaksuWorld' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'taksuTests' do
+  target 'TaksuWorldTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'taksu' do
   end
 end
 
-target 'taksu-tvOS' do
-  # Pods for taksu-tvOS
+target 'TaksuWorld-tvOS' do
+  # Pods for TaksuWorld-tvOS
 
-  target 'taksu-tvOSTests' do
+  target 'TaksuWorld-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
