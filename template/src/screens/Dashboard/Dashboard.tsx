@@ -1,5 +1,3 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
 import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
 import 'react-native-gesture-handler';
@@ -13,7 +11,7 @@ import {
 
 declare const global: { HermesInternal: null | {} };
 
-const AppComponent = () => {
+const Dashboard = () => {
     return (
         <>
             <StatusBar barStyle="dark-content" />
@@ -98,16 +96,4 @@ const styles = StyleSheet.create({
     },
 });
 
-const Stack = createStackNavigator();
-
-const AppContainer = () => {
-    return (
-        <NavigationContainer>
-            <Stack.Navigator>
-                <Stack.Screen name="App" component={AppComponent} />
-            </Stack.Navigator>
-        </NavigationContainer>
-    );
-};
-
-export default AppContainer;
+export default Dashboard;

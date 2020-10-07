@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AppTest take snapshot 1`] = `
+exports[`Dashboard Screen take snapshot 1`] = `
 <Fragment>
   <StatusBar
     animated={false}

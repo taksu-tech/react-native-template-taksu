@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Splash Screen take snapshot 1`] = `
+<Fragment>
+  <StatusBar
+    animated={false}
+    barStyle="dark-content"
+    showHideTransition="fade"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <withAnimatable(Image)
+      animation="fadeInUp"
+      delay={200}
+      direction="normal"
+      duration={400}
+      iterationCount={1}
+      iterationDelay={0}
+      onAnimationBegin={[Function]}
+      onAnimationEnd={[Function]}
+      onTransitionBegin={[Function]}
+      onTransitionEnd={[Function]}
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../src/images/logo.png",
+        }
+      }
+      useNativeDriver={true}
+    />
+  </View>
+</Fragment>
+`;

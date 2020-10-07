@@ -1,14 +1,14 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import App from '../App';
+import Dashboard from '../Dashboard';
 
-describe('AppTest', () => {
+describe('Dashboard Screen', () => {
     it('renders correctly', () => {
-        shallow(<App />);
+        shallow(<Dashboard />);
     });
 
     it('take snapshot', () => {
-        const wrapper = shallow(<App />);
+        const wrapper = shallow(<Dashboard />);
 
         expect(wrapper).toMatchSnapshot();
     });
