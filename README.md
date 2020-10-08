@@ -8,7 +8,7 @@
 ## Usage
 
 ```sh
-npx react-native init MyApp --template https://github.com/puguhsudarma/react-native-template-taksu.git
+npx react-native init MyApp --template https://github.com/taksu-teknologi/react-native-template-taksu.git
 ```
 
 ## License
