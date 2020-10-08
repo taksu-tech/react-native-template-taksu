@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { name as appName } from '../app.json';
 import { persistor, store } from './redux';
+import axiosConfig from './utils/axiosConfig';
 import RootStack from './utils/Navigation';
 
 // disable yellow box
@@ -14,6 +15,9 @@ LogBox.ignoreAllLogs(true);
 
 // react navigation optimization
 enableScreens();
+
+// activated axios listener log
+axiosConfig();
 
 // app container
 const AppContainer = () => {
