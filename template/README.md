@@ -6,10 +6,8 @@
 
 ## Dependencies
 - [react-navigation](https://reactnavigation.org/docs/getting-started)
-- [@reduxjs/toolkit](https://redux-toolkit.js.org/introduction/quick-start)
-- [redux](https://redux.js.org/introduction/getting-started)
+- [mobx](https://mobx.js.org/README.html)
 - [axios](https://github.com/axios/axios)
-- [react-native-responsive-screen](https://github.com/marudy/react-native-responsive-screen)
 
 ## Suggested Dependencies
 - [Formik](https://formik.org/docs/overview)
@@ -20,7 +18,7 @@
 - `components` : all react components that can be shared across screens
 - `constants` : contain constant value like api endpoint, color, etc
 - `images` : contain assets like image, json, etc
-- `redux` : contain all logic for state management like reducer, actions, service see [@reduxjs/toolkit](https://redux-toolkit.js.org/introduction/quick-start)
+- `mobx` : contain all logic for state management
 - `screens` : contain all screens
 - `utils` : contain all common utility used across all file
 - `index.ts` : root components

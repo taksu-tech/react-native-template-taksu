@@ -1,19 +1,12 @@
-import { Dimensions, PixelRatio, Platform } from 'react-native';
-import ExtraDimensions from 'react-native-extra-dimensions-android';
-import {
-    heightPercentageToDP,
-    listenOrientationChange,
-    removeOrientationListener,
-    widthPercentageToDP,
-} from 'react-native-responsive-screen';
+/* eslint @typescript-eslint/no-var-requires: 0 */
 
-const screenWidth = Dimensions.get('window').width;
-const screenHeight = Dimensions.get('window').height;
-const fullHeight = ExtraDimensions.get('REAL_WINDOW_HEIGHT') - ExtraDimensions.get('STATUS_BAR_HEIGHT');
-const statusBarHeight = Platform.select({
-    android: ExtraDimensions.get('STATUS_BAR_HEIGHT') as number,
-    ios: 0,
-});
+import { Dimensions, PixelRatio, Platform } from 'react-native';
+
+const { width: screenWidth, height: screenHeight } = Dimensions.get('window');
+const deviceHeight =
+    Platform.OS === 'ios'
+        ? screenHeight
+        : require('react-native-extra-dimensions-android').get('REAL_WINDOW_HEIGHT');
 const ratio = screenWidth / screenHeight;
 const pixelDensity = PixelRatio.get();
 const adjustedWidth = screenWidth * pixelDensity;
@@ -27,11 +20,6 @@ const isTablet = () => {
     }
 
     return false;
-};
-
-const { w, h } = {
-    w: (num: number) => widthPercentageToDP((num / screenWidth) * 100),
-    h: (num: number) => heightPercentageToDP((num / screenHeight) * 100),
 };
 
 export const extraPad = {
@@ -73,17 +61,4 @@ export const getBottom = () => {
 
 export const offsetKeyboard = () => (Platform.OS === 'ios' ? 64 : 0);
 
-export {
-    widthPercentageToDP as wp,
-    heightPercentageToDP as hp,
-    w as sw,
-    h as sh,
-    listenOrientationChange,
-    removeOrientationListener,
-    isTablet,
-    screenWidth,
-    screenHeight,
-    fullHeight,
-    statusBarHeight,
-    ratio,
-};
+export { isTablet, screenWidth, screenHeight, deviceHeight, ratio };

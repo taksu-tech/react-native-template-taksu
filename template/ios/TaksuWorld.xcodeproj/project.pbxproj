@@ -161,7 +161,6 @@
 				D57096E90BB81B261637BB63 /* Pods-TaksuWorld-tvOSTests.debug.xcconfig */,
 				C87AAF5C65A1B15EC65C934C /* Pods-TaksuWorld-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

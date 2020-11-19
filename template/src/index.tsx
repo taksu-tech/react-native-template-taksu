@@ -3,12 +3,11 @@ import React from 'react';
 import { AppRegistry, LogBox } from 'react-native';
 import 'react-native-gesture-handler';
 import { enableScreens } from 'react-native-screens';
-import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react';
 import { name as appName } from '../app.json';
-import { persistor, store } from './redux';
+import { rootStore, RootStoreContext } from './mobx';
 import axiosConfig from './utils/axiosConfig';
 import RootStack from './utils/Navigation';
+import { ThemeProvider } from './utils/themeConfig';
 
 // disable yellow box
 LogBox.ignoreAllLogs(true);
@@ -22,13 +21,13 @@ axiosConfig();
 // app container
 const AppContainer = () => {
     return (
-        <Provider store={store}>
-            <PersistGate loading={null} persistor={persistor}>
+        <RootStoreContext.Provider value={rootStore}>
+            <ThemeProvider>
                 <NavigationContainer>
                     <RootStack />
                 </NavigationContainer>
-            </PersistGate>
-        </Provider>
+            </ThemeProvider>
+        </RootStoreContext.Provider>
     );
 };
 

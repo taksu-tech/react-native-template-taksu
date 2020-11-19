@@ -1,26 +1,33 @@
 import { StackNavigationProp } from '@react-navigation/stack';
-import React, { useEffect } from 'react';
+import { observer } from 'mobx-react-lite';
+import React, { useContext, useEffect } from 'react';
 import { StatusBar, StyleSheet, View } from 'react-native';
 import * as Animatable from 'react-native-animatable';
-import color from '../../constants/color';
-import { sh, sw } from '../../utils/dimensions';
+import { ms } from 'react-native-size-matters';
+import { RootStoreContext } from '../../mobx';
 import { RootStackParamList } from '../../utils/Navigation';
+import { useTheme } from '../../utils/themeConfig';
 
 interface Props {
     navigation: StackNavigationProp<RootStackParamList, 'Splashscreen'>;
 }
 
-const Splashscreen = (props: Props) => {
+const SplashScreen = (props: Props) => {
+    const theme = useTheme();
+    const store = useContext(RootStoreContext);
+
     useEffect(() => {
-        setTimeout(() => {
-            props.navigation.replace('Dashboard');
-        }, 3000);
-    }, []);
+        if (store.storeLoaded) {
+            setTimeout(() => {
+                props.navigation.replace('Dashboard');
+            }, 3000);
+        }
+    }, [store.storeLoaded]);
 
     return (
         <>
-            <StatusBar barStyle="dark-content" />
-            <View style={styles.container}>
+            <StatusBar barStyle="light-content" backgroundColor={theme.primaryColor} />
+            <View style={[styles.container, { backgroundColor: theme.backgroundColor }]}>
                 <Animatable.Image
                     useNativeDriver
                     animation="fadeInUp"
@@ -39,12 +46,11 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: color.PRIMARY,
     },
     logo: {
-        width: sw(400),
-        height: sh(200),
+        width: ms(400),
+        height: ms(200),
     },
 });
 
-export default Splashscreen;
+export default observer(SplashScreen);
