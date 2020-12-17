@@ -7,7 +7,6 @@ import { name as appName } from '../app.json';
 import { rootStore, RootStoreContext } from './mobx';
 import axiosConfig from './utils/axiosConfig';
 import RootStack from './utils/Navigation';
-import { ThemeProvider } from './utils/themeConfig';
 
 // disable yellow box
 LogBox.ignoreAllLogs(true);
@@ -22,11 +21,9 @@ axiosConfig();
 const AppContainer = () => {
     return (
         <RootStoreContext.Provider value={rootStore}>
-            <ThemeProvider>
-                <NavigationContainer>
-                    <RootStack />
-                </NavigationContainer>
-            </ThemeProvider>
+            <NavigationContainer>
+                <RootStack />
+            </NavigationContainer>
         </RootStoreContext.Provider>
     );
 };

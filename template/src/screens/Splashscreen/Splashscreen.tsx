@@ -6,14 +6,13 @@ import * as Animatable from 'react-native-animatable';
 import { ms } from 'react-native-size-matters';
 import { RootStoreContext } from '../../mobx';
 import { RootStackParamList } from '../../utils/Navigation';
-import { useTheme } from '../../utils/themeConfig';
+import { Color } from '../../utils/themeConfig';
 
 interface Props {
     navigation: StackNavigationProp<RootStackParamList, 'Splashscreen'>;
 }
 
 const SplashScreen = (props: Props) => {
-    const theme = useTheme();
     const store = useContext(RootStoreContext);
 
     useEffect(() => {
@@ -26,8 +25,8 @@ const SplashScreen = (props: Props) => {
 
     return (
         <>
-            <StatusBar barStyle="light-content" backgroundColor={theme.primaryColor} />
-            <View style={[styles.container, { backgroundColor: theme.backgroundColor }]}>
+            <StatusBar barStyle="light-content" backgroundColor={Color.PRIMARY} />
+            <View style={[styles.container, { backgroundColor: Color.WHITE }]}>
                 <Animatable.Image
                     useNativeDriver
                     animation="fadeInUp"

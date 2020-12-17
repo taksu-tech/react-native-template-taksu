@@ -11,16 +11,15 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --quiet --fix"
   },
   "dependencies": {
-    "@callstack/react-theme-provider": "^2.1.0",
     "@react-native-async-storage/async-storage": "^1.13.2",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.7.5",
     "@react-navigation/stack": "^5.9.2",
     "axios": "^0.20.0",
     "mobx": "^6.0.4",
+    "mobx-logger": "^0.7.1",
     "mobx-persist": "^0.4.1",
     "mobx-react-lite": "^3.1.6",
-    "mobx-remotedev": "^0.3.6",
     "react": "16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "0.63.2",

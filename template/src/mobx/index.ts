@@ -1,11 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { makeAutoObservable, observable, runInAction } from 'mobx';
+import { enableLogging } from 'mobx-logger';
 import { create } from 'mobx-persist';
-import remotedev from 'mobx-remotedev';
 import { createContext } from 'react';
 import { AccountStore } from './account/store';
 
-@remotedev
 export class RootStore {
     @observable storeLoaded = false;
 
@@ -22,6 +21,17 @@ export class RootStore {
 export const rootStore = new RootStore();
 
 export const RootStoreContext = createContext<RootStore>(rootStore);
+
+// log
+if (__DEV__) {
+    enableLogging({
+        action: true,
+        compute: true,
+        predicate: () => true,
+        reaction: true,
+        transaction: true,
+    });
+}
 
 // persistent data;
 const hydrate = create({ storage: AsyncStorage });
